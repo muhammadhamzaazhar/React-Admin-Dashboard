@@ -50,7 +50,7 @@ function App() {
             <Route path="/geography" element={<Geography />} />
             <Route path="/calendar" element={<Calendar />} />
           </Route>
-          <Route path="*" element={<ErrorPage />} />
+          <Route path="/*" element={<ErrorPage />} />
         </Routes>
       </ThemeProvider>
     </ColorModeContext.Provider>
